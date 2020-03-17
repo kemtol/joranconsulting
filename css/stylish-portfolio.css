@@ -188,6 +188,7 @@ header{
 
 header .container{
   height:80px;
+  position:relative;
 }
 
 .menu-toggle {
