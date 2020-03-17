@@ -183,6 +183,11 @@ h6 {
 header{
   position: fixed;
   top:0;
+  width:100%;
+}
+
+header .container{
+  height:80px;
 }
 
 .menu-toggle {
@@ -242,6 +247,7 @@ header{
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
+  z-index:-1;
 }
 
 .portfolio-item .caption {
