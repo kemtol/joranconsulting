@@ -184,6 +184,7 @@ header{
   position: fixed;
   top:0;
   width:100%;
+  z-index:999;
 }
 
 header .container{
@@ -248,7 +249,6 @@ header .container{
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
-  z-index:-1;
 }
 
 .portfolio-item .caption {
@@ -331,7 +331,8 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+    color: #111;
+    text-decoration: underline;
 }
 
 a:hover, a:focus, a:active {
